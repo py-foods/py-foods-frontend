@@ -1,0 +1,26 @@
+{
+  "home": "Trang Chủ",
+  "product": "Sản Phẩm",
+  "partner": "Đối Tác Thương Hiệu",
+  "login": "Đăng Nhập",
+  "sub-product": {
+    "tissue": "Giấy Ăn",
+    "paper-cup": "Ly Giấy",
+    "bottle-plastic": "Hộp Nhựa",
+    "flour" : "Bột Làm Bánh"
+  },
+  "introduce": "Giới Thiệu",
+  "news": "Tin Tức",
+  "contact" : "Liên Hệ",
+  "signIn": "Đăng Nhập",
+  "signUp": "Đặng Ký",
+  "topSales": "Sản Phẩm Bán Chạy",
+  "favorites": "Danh Sách Yêu Thích",
+  "loadMore": "Xem Tất Cả",
+  "vietnamese": "Tiếng Việt",
+  "english" : "Tiếng Anh",
+  "new-item": "Hàng Mới",
+  "top-sale": "Bán Chạy",
+  "low-price": "Giá Thấp",
+  "high-price": "Giá Cao"
+}

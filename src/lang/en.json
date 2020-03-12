@@ -1,0 +1,26 @@
+{
+  "home": "Home",
+  "product": "Product",
+  "partner": "partner",
+  "login": "login",
+  "sub-product": {
+    "tissue": "Tissue",
+    "paper-cup": "Paper Cup",
+    "bottle-plastic": "Bottle Plastic",
+    "flour" : "flour"
+  },
+  "introduce": "Introduce",
+  "news": "News",
+  "contact" : "Contact",
+  "signIn": "Sign In",
+  "signUp": "Sign Up",
+  "topSales": "Top Sales",
+  "favorites": "Favorite Products",
+  "loadMore": "All",
+  "vietnamese": "Vietnamese",
+  "english" : "English",
+  "new-item": "New",
+  "top-sale": "Top Sale",
+  "low-price": "Low Price",
+  "high-price": "High Price"
+}
