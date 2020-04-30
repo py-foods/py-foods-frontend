@@ -10,6 +10,7 @@ import i18n from './lang/i18n'
 import VueJSModal from 'vue-js-modal'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import VueFbCustomerChat from 'vue-fb-customer-chat'
 
 Vue.use(AOS, {
   duration: 800,
@@ -20,6 +21,12 @@ Vue.use(VueJSModal, {
   dialog: true,
   dynamic: true
 })
+Vue.use(VueFbCustomerChat, {
+  page_id: '197657473618542',
+  theme_color: '#333333',
+  locale: 'en_US'
+})
+
 Vue.config.productionTip = false
 
 const app = new Vue({

@@ -5,6 +5,7 @@
       <router-view/>
       <br>
       <app-footer></app-footer>
+      <div id = "fb-root"></div>
       <div id="click-to-top">
 <!--
          <div class="mouse1">
