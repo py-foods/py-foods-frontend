@@ -7,7 +7,7 @@
       <app-footer></app-footer>
       <div id="click-to-top">
          <div class="mouse">
-            <button @click="scrollToTop" class="mouse-icon">
+            <button @click="scrollToTop(3000)" class="mouse-icon">
                <div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
             </button>
          </div>
@@ -32,9 +32,15 @@ export default {
     }
   },
   methods: {
-    scrollToTop () {
-      document.body.scrollTop = 0
-      document.documentElement.scrollTop = 0
+    scrollToTop (duration) {
+      var scrollStep = -window.scrollY / (duration / 15)
+      var scrollInterval = setInterval(function () {
+        if (window.scrollY !== 0) {
+          window.scrollBy(0, scrollStep)
+        } else {
+          clearInterval(scrollInterval)
+        }
+      }, 15)
     }
   },
   computed: {
