@@ -24,7 +24,7 @@ Vue.use(VueJSModal, {
 Vue.use(VueFbCustomerChat, {
   page_id: '197657473618542',
   theme_color: '#333333',
-  locale: 'en_US'
+  locale: 'vi_vn'
 })
 Vue.config.productionTip = false
 
