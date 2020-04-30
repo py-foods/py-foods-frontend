@@ -26,7 +26,6 @@ Vue.use(VueFbCustomerChat, {
   theme_color: '#333333',
   locale: 'en_US'
 })
-
 Vue.config.productionTip = false
 
 const app = new Vue({
