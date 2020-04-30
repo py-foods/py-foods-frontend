@@ -6,11 +6,13 @@
       <br>
       <app-footer></app-footer>
       <div id="click-to-top">
+<!--
          <div class="mouse1">
             <a href="#" class="mouse-icon">
                <div class="mouse-wheel"><span class="icon-chat"></span></div>
             </a>
          </div>
+-->         
            <!-- Your customer chat code -->
          <div class="fb-customerchat" attribution=setup_tool page_id="197657473618542" theme_color="#0084ff"></div>
          <div class="mouse">
